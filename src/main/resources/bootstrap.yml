@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27025/bootcoin-purse
+  application:
+    name: bootcoin-purse-service
+  cloud:
+    config:
+      #enabled: true
+      uri: http://localhost:8081
